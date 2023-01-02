@@ -1,0 +1,200 @@
+import pyzbar.pyzbar as pyzbar
+import csv
+
+def read_qr_code(image_path):
+  
+  image = cv2.imread(image_path)
+
+  
+  decoded_objects = pyzbar.decode(image)
+
+  return decoded_objects
+
+
+qr_code_data = read_qr_code("qr_code.png")
+print(qr_code_data) 
+
+USER_DB_FILE = 
+USER_DB_FILE =
+
+USER_DB_FILE
+
+USERDB
+
+USERDB
+
+USER
+
+USER
+'users.csv'
+
+def register(username, password):
+with open(USER_DB_FILE, 'a') as csvfile:
+       
+katagoriler 
+def select_category(): 
+print("Please select a category:") 
+print("1. Fast Food") 
+print("2. Italian")
+print("3. Chinese")
+print("4. Indian")
+  selection = 
+  selection =
+
+  selection
+int(input("Enter the number corresponding to your selection: "))
+if selection == 1:
+return "Fast Food"
+ el
+elif selection == 2:
+return "Italian"
+ el
+elif selection == 3:
+return "Chinese"
+el
+elif selection == 4:
+return "Indian"
+else:
+print("Invalid selection. Please try again.")
+return select_category()
+
+selected_category = select_category()
+
+selected_category = select_category
+
+selectedcategory = select
+
+selected_category = select
+
+selected_category =
+
+selectedcategory
+
+selected
+
+selected
+print(f"You selected: {selected_category}")
+def add_to_cart(food_item, cart):
+cart.append(food_item)
+  cart.append(food_item)
+   cart.append(food_item)
+  cart.append(fooditem
+  cart.append(food
+  cart.append(food
+  cart.append(
+  cart.append
+  cart.
+  cart
+print(f"{food_item} added to the cart.")
+
+cart = []
+add_to_cart(
+cart = []
+add_to_cart
+
+cart = []
+addto
+
+cart = []
+addto
+
+cart = []
+add
+
+cart = []
+add
+
+cart = []
+
+cart =
+
+cart
+"Pizza", cart)  
+add_to_cart(
+add_to_cart
+
+addto
+
+addto
+
+add
+"Soup", cart)  
+add_to_cart(
+add_to_cart
+
+addto
+
+addto
+
+add
+
+add
+"Salad", cart)  
+
+print(cart)   ['Pizza', 'Soup', 'Salad']
+  
+  def checkout(cart, payment_method):
+  total_cost = 
+  totalcost =
+
+  total
+
+  total
+0
+for item in cart:
+    total_cost += item[
+    total_cost += item
+
+    total_cost +=
+
+    totalcost
+
+    total
+
+    total
+
+
+"price"]
+
+if payment_method == "credit_card":
+
+
+
+print("Please enter your credit card information:")
+    credit_card_number = 
+    credit_card_number =
+
+    credit_card_number
+
+    creditcard
+
+    creditcard
+
+    credit
+
+    credit
+
+
+input("Card number: ")
+    expiration_date = 
+    expiration_date =
+
+    expirationdate
+
+    expiration
+
+    expiration
+
+
+input("Expiration date (MM/YY): ")
+    security_code = 
+    security_code =
+
+    securitycode
+
+    security
+
+    security
+
+
+input("Security code: ")
